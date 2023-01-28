@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{353035EA-5842-4450-BE2E-73EBFD047EEC}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{353035EA-5842-4450-BE2E-73EBFD047EEC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="TestSFX" ID="{B640C5ED-80FC-4334-996D-BADA390852C1}" ShortID="1073659219">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Interactables_HealthBox_Take2" ID="{44094081-0296-404E-BC71-7B6A90CB9296}">
+							<Language>SFX</Language>
+							<AudioFile>Interactables_HealthBox_Take2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="778083736"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Interactables_HealthBox_Take2" ID="{44094081-0296-404E-BC71-7B6A90CB9296}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
