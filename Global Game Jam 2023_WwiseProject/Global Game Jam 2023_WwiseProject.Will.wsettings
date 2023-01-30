@@ -23,10 +23,10 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="kGQ7D4dh6Uyo0yUoEcINaQ=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="R0/0Xyd2TESeIMBXWE/PTZBkOw+HYelMqNMlKBHCDWk="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="d2X+K00BZU6KbhSkad0MRQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="nWxpgPINjkWPuoCOhOh30wEAPTDPAAAAwKSMgPp/AADIjXj4DwIAAAAAAAAPAgAAwKSMgPp/AAAEkuCA+n8AAJCHgJUPAgAAAAAAAA8CAAAIAAAAAAAAANjmPTDPAAAAAAD1gPp/AAAfAfWA+n8AAAAA9YD6fwAAwKSMgPp/AADApIyA+n8AAMiNePgPAgAAAQAAAGf8Ge94enNDs07LGqgWNXUBAD0wzwAAAMCkjID6fwAAyI14+A8CAAAAAAAADwIAAMCkjID6fwAABJLggPp/AACQh4CVDwIAAAAAAAAPAgAACAAAAAAAAADY5j0wzwAAAAAA9YD6fwAAHwH1gPp/AAAAAPWA+n8AAMCkjID6fwAAwKSMgPp/AADIjXj4DwIAAAEAAAA="/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="Z/wZ73h6c0OzTssaqBY1dQEAl21PAAAAwKTZgPp/AABYxxk6jgEAAAAAAACOAQAAwKTZgPp/AAAEkuCA+n8AALDolk6OAQAAAAAAAI4BAAAIAAAAAAAAAPjhl21PAAAAAAD1gPp/AAAfAfWA+n8AAAAA9YD6fwAAwKTZgPp/AADApNmA+n8AAFjHGTqOAQAAAQAAAJ1saYDyDY5Fj7qAjoTod9MBAJdtTwAAAMCk2YD6fwAAWMcZOo4BAAAAAAAAjgEAAMCk2YD6fwAABJLggPp/AACw6JZOjgEAAAAAAACOAQAACAAAAAAAAAD44ZdtTwAAAAAA9YD6fwAAHwH1gPp/AAAAAPWA+n8AAMCk2YD6fwAAwKTZgPp/AABYxxk6jgEAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -62,7 +62,7 @@
 				<Property Name="ProjectExplorer\SelectionChannel1\CurrentSearch" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\SelectionChannel1\CurrentTab" Type="int32" Value="2"/>
 				<Property Name="ProjectExplorer\SelectionChannel2\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel2\CurrentTab" Type="int32" Value="1"/>
+				<Property Name="ProjectExplorer\SelectionChannel2\CurrentTab" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\SessionsSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\SessionsSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="i7OWTLQ9x0CRyWZVEOOJk/eqd2Rl45BJo5Llm4JLZBjN5FEXGIAsTpqKx3dk0dZT"/>
 				<Property Name="ProjectExplorer\SessionsSelectionChannel2\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>

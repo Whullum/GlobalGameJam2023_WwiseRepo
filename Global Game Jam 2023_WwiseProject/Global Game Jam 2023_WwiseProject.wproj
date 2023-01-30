@@ -21,18 +21,18 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Mac">D:\Projects\Global Game Jam 2023\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks</Value>
+						<Value Platform="Windows">D:\Projects\Global Game Jam 2023\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Windows">..\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</Value>
+						<Value Platform="Mac">..\..\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">..\..\GlobalGameJam2023_Repo\Global Game Jam 2023\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
