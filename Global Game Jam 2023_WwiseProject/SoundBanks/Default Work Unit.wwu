@@ -5,8 +5,21 @@
 			<ChildrenList>
 				<SoundBank Name="TestBank" ID="{2BFE6577-014D-4E65-8A6E-14A469DD0C45}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TestSFX" ID="{B640C5ED-80FC-4334-996D-BADA390852C1}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_TestSFX" ID="{8B0EC525-DA0E-4B5D-B198-3CBEC3CCAB91}" WorkUnitID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" WorkUnitID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MenuBank" ID="{442D9974-34D9-40D1-989F-D81C91F83E09}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MenuSounds" ID="{F96E0558-8EEF-4153-86C2-2D0330A1F614}" WorkUnitID="{F96E0558-8EEF-4153-86C2-2D0330A1F614}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DungeonBank" ID="{C4A2A9D4-5484-4694-9592-C3E29916FC37}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DungeonSounds" ID="{CB982BB8-F81F-40B4-94D0-FA9C6CE16C11}" WorkUnitID="{CB982BB8-F81F-40B4-94D0-FA9C6CE16C11}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

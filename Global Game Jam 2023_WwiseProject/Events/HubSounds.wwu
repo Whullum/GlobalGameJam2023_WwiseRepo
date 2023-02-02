@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3534633B-DCF0-4BB4-9BB0-B8F39DA713BF}" SchemaVersion="110" RootDocumentID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" ParentDocumentID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}">
+	<Events>
+		<WorkUnit Name="HubSounds" ID="{3534633B-DCF0-4BB4-9BB0-B8F39DA713BF}" OwnerID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_UI_Purchase" ID="{783FA39B-55FB-40F9-9B82-FB80CDC2E841}">
+					<ChildrenList>
+						<Action Name="" ID="{882B5EBB-BCFB-4323-82AB-BB8B4EDF0501}" ShortID="540926654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Purchase" ID="{50741616-90AB-4587-A527-D9D1A96953DE}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

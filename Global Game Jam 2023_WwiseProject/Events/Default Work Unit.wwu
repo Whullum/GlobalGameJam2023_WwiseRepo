@@ -14,6 +14,9 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="DungeonSounds" ID="{CB982BB8-F81F-40B4-94D0-FA9C6CE16C11}" PersistMode="Reference"/>
+				<WorkUnit Name="HubSounds" ID="{3534633B-DCF0-4BB4-9BB0-B8F39DA713BF}" PersistMode="Reference"/>
+				<WorkUnit Name="MenuSounds" ID="{F96E0558-8EEF-4153-86C2-2D0330A1F614}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

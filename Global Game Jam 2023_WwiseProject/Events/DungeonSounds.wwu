@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB982BB8-F81F-40B4-94D0-FA9C6CE16C11}" SchemaVersion="110" RootDocumentID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" ParentDocumentID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}">
+	<Events>
+		<WorkUnit Name="DungeonSounds" ID="{CB982BB8-F81F-40B4-94D0-FA9C6CE16C11}" OwnerID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Music" ID="{4F4DA702-B6B8-4504-9335-61F2C15738E9}" ShortID="153899223">
+					<ChildrenList>
+						<Event Name="Play_Dungeon" ID="{C98F5039-60E0-45C9-8867-492769A7EC40}">
+							<ChildrenList>
+								<Action Name="" ID="{CF431CC1-86EF-4B41-AA7B-91812B2ED14A}" ShortID="388632566">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dungeon" ID="{BD85EBEA-2F4E-4416-8811-D9B759D68142}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{6BC6D4B4-B5B8-4F24-8873-1FF509A94805}" ShortID="27355077">
+					<ChildrenList>
+						<Event Name="Play_SFX_Player_MeleeAttack_Container" ID="{56284DD5-1157-45B1-9615-60FBA8D1AB2D}">
+							<ChildrenList>
+								<Action Name="" ID="{EA660381-901A-4E97-AF57-BC915E074A9D}" ShortID="699349645">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Player_MeleeAttack_Container" ID="{CBC92583-EBA5-472D-AFC0-DE33F4196F6D}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Enemy_Death" ID="{B8DB3B65-776E-458B-BCEF-D2E237AF0718}">
+							<ChildrenList>
+								<Action Name="" ID="{75198F3C-40EA-41BA-A44C-B7FF18F6DA71}" ShortID="747204656">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Enemy_Death" ID="{8407F753-B7EB-4AC3-A83E-5A93842FF246}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Enemy_Damaged" ID="{F21757B5-AA59-4ACE-A16A-9A23494D570C}">
+							<ChildrenList>
+								<Action Name="" ID="{906324B0-D8DA-4CE6-B38B-7C71C57D6B52}" ShortID="1015027508">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Enemy_Damaged" ID="{51BEEEAD-87E8-4DA9-B553-9535798E62A9}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_RootsContainer" ID="{49862039-85DF-40E3-8A15-461F497EF56F}">
+							<ChildrenList>
+								<Action Name="" ID="{98A24343-E60F-45C8-B897-9D1E034C53C2}" ShortID="604990027">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RootsContainer" ID="{ED6BB5BD-916C-4C58-A171-6B6E55B160E0}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Player_Dodge_Container" ID="{42E6232E-5473-47C2-BEF4-02467D036688}">
+							<ChildrenList>
+								<Action Name="" ID="{B8AFA146-E634-42BB-AEBB-2EE9A756147E}" ShortID="607084197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Player_Dodge_Container" ID="{FC79CFB9-F65F-45C3-A68C-70780AE3AE39}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Player_Damaged" ID="{B4189F59-3508-42AF-A633-27C29713FCD5}">
+							<ChildrenList>
+								<Action Name="" ID="{E9AF4CA1-D552-4F31-9E2E-C218FCD8880E}" ShortID="188798485">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Player_Damaged" ID="{3235B4C4-CD12-4615-8C54-B9FFCF55ED03}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Enemy_MeleeAttack_Container" ID="{FA71A56F-B668-4A3C-9D7C-13379D08DFB7}">
+							<ChildrenList>
+								<Action Name="" ID="{B6E33E4F-FE6E-42A6-9397-FEBC8BE753D4}" ShortID="709694578">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Enemy_MeleeAttack_Container" ID="{0B50E264-5476-4269-B5C0-81ED7BAF8089}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

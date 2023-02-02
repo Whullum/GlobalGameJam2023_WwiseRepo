@@ -366,22 +366,61 @@
 							</PropertyList>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{C9B2669B-E3DA-4117-A007-83C40084F0D6}">
-									<TransitionInfo/>
+									<PropertyList>
+										<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{DD28D978-E337-48F8-8D81-C653700D9698}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{A7C9E17C-1622-484B-A260-51A63793BC5A}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
 					<ArgumentList>
-						<ArgumentRef Name="Normal" ID="{9D8AF7A8-1EE5-48D9-95A3-8619A70DBC44}"/>
+						<ArgumentRef Name="Gameplay" ID="{D9C09693-87A4-4AAF-B6FA-5263CBC5EAD8}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Normal" ID="{9D8AF7A8-1EE5-48D9-95A3-8619A70DBC44}"/>
+								<PathElementRef Name="Gameplay" ID="{D9C09693-87A4-4AAF-B6FA-5263CBC5EAD8}"/>
 							</Path>
 							<AudioNodeInfo>
 								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Normal" ID="{533F303B-13FF-40EA-AC11-24950C05B262}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Dungeon-Normal" ID="{8E39915E-0743-4496-9136-A5CE8A90891B}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{E1B35AAA-6684-4AB5-86DD-F4D43E47C917}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Dungeon-Normal" ID="{8E39915E-0743-4496-9136-A5CE8A90891B}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

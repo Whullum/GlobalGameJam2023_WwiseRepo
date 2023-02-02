@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F96E0558-8EEF-4153-86C2-2D0330A1F614}" SchemaVersion="110" RootDocumentID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" ParentDocumentID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}">
+	<Events>
+		<WorkUnit Name="MenuSounds" ID="{F96E0558-8EEF-4153-86C2-2D0330A1F614}" OwnerID="{C49B6F3A-8ED3-4F0B-8355-05EB2C02B568}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_UI_Menu_Confirm" ID="{C92CE701-6011-496E-BC6F-940AF26F3141}">
+					<ChildrenList>
+						<Action Name="" ID="{514553C9-C71B-4431-8193-88DA80B165A8}" ShortID="1007619476">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Confirm" ID="{4818615A-2529-4D32-A867-F0707368955C}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Selection" ID="{FE392680-1889-4BB0-9268-7C7B8AB6E1B8}">
+					<ChildrenList>
+						<Action Name="" ID="{C7AD26BD-B16A-418A-80E5-42215A823471}" ShortID="459652528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Selection" ID="{F58A9884-478A-4730-90D4-D36724BA80CF}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Cancel" ID="{A5E6EE5B-8184-4621-B3E4-115502C80B2B}">
+					<ChildrenList>
+						<Action Name="" ID="{4D1C897D-EC7F-4B48-88F8-968A649134F8}" ShortID="388671267">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Cancel" ID="{8E37193E-DF83-45CA-8A0F-8EB82DC5D7E1}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_SliderChange" ID="{D8BAC99E-21B2-4637-81D4-09EF259BF50C}">
+					<ChildrenList>
+						<Action Name="" ID="{BA828F03-646F-434F-A6FD-C50580C2EDD2}" ShortID="637788087">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_SliderChange" ID="{BBF0D01C-716D-4980-8FE3-493333259B38}" WorkUnitID="{353035EA-5842-4450-BE2E-73EBFD047EEC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

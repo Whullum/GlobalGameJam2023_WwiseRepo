@@ -3,9 +3,11 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{EB5A4AEF-23D9-4581-B3FB-A93BA9B54989}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Normal" ID="{9D8AF7A8-1EE5-48D9-95A3-8619A70DBC44}">
+				<StateGroup Name="Gameplay" ID="{D9C09693-87A4-4AAF-B6FA-5263CBC5EAD8}">
 					<ChildrenList>
-						<State Name="None" ID="{AB856961-8410-439D-BA59-67BA1B76A6E8}"/>
+						<State Name="None" ID="{E1B35AAA-6684-4AB5-86DD-F4D43E47C917}"/>
+						<State Name="Normal" ID="{533F303B-13FF-40EA-AC11-24950C05B262}"/>
+						<State Name="Danger" ID="{7B06876A-1F5A-4E6B-B22B-B4301DC9A9A9}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
