@@ -8,6 +8,8 @@
 						<State Name="None" ID="{E1B35AAA-6684-4AB5-86DD-F4D43E47C917}"/>
 						<State Name="Normal" ID="{533F303B-13FF-40EA-AC11-24950C05B262}"/>
 						<State Name="Danger" ID="{7B06876A-1F5A-4E6B-B22B-B4301DC9A9A9}"/>
+						<State Name="Death" ID="{6DCF7525-3054-4499-A53D-02A812859845}"/>
+						<State Name="Victory" ID="{AB74CE86-29DD-4E93-BEA8-AD01C50F731F}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
