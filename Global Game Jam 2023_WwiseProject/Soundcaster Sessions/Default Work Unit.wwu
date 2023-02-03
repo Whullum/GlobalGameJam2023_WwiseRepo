@@ -12,7 +12,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{E1B35AAA-6684-4AB5-86DD-F4D43E47C917}"/>
+						<CurrentStateRef Name="Danger" ID="{7B06876A-1F5A-4E6B-B22B-B4301DC9A9A9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
