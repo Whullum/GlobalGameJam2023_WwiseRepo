@@ -16,6 +16,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Dungeon" ID="{82278C13-B959-4868-834E-F72B51919B40}">
+							<ChildrenList>
+								<Action Name="" ID="{A2B1CEDC-A405-4868-A5E0-59528A4E326D}" ShortID="421765527">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dungeon" ID="{BD85EBEA-2F4E-4416-8811-D9B759D68142}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX" ID="{6BC6D4B4-B5B8-4F24-8873-1FF509A94805}" ShortID="27355077">
