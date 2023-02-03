@@ -695,6 +695,309 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Victory-Stinger" ID="{F6B875B1-B38B-428D-BE99-EE1E3C2D9D33}" ShortID="1059900313">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Overgrowth-victory-stinger" ID="{81E8EB31-F49B-4C1E-B604-088421CB143A}" ShortID="550672624">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="10506.9841269841"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Overgrowth-victory-stinger" ID="{6AC4A2E8-CD56-4B78-AE7A-9D8AABAA0DD2}" ShortID="405934346">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Overgrowth-victory-stinger" ID="{1BAECDB7-F4B4-4898-942A-43F4ED2F8F7E}">
+													<Language>SFX</Language>
+													<AudioFile>Overgrowth-victory-stinger.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="460321632"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{53FF8A95-54A2-4DAC-BD74-17CDDDD7B0EF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E20D4026-FA09-4925-A95A-D946BC28DBCE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Overgrowth-victory-stinger" ID="{93BDD16A-F150-4F27-88B7-8148E3F1F06B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10506.9841269841"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Overgrowth-victory-stinger" ID="{1BAECDB7-F4B4-4898-942A-43F4ED2F8F7E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2FF61337-EA26-4EB1-B4BD-4C3E0950AF40}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E8A97BFE-DAD9-4BB4-B00F-8F0B72AA3A6D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="7000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{44846008-64C6-4785-ABDB-B9DBD757470A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{969ACDC4-5600-40C4-825A-7A814A6EDD93}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{258414ED-EBCE-4D4B-94F4-1FEA741E2BB1}" ShortID="288151344">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{F37EBAC8-7508-41CF-922E-B12F1CF73F38}" ShortID="179321114">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Overgrowth-victory-stinger" ID="{81E8EB31-F49B-4C1E-B604-088421CB143A}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Death-Stinger" ID="{3AC735DD-882C-4D59-834A-E949A675F60D}" ShortID="502102166">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Overgrowth-death-stinger" ID="{58408EC2-E185-42BB-AE81-DC16BB190C10}" ShortID="55783433">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11037.4716553288"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Overgrowth-death-stinger" ID="{A74073A9-3AD0-4694-BD01-8D9EA20A2E7F}" ShortID="997634158">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Overgrowth-death-stinger" ID="{927DC89D-394E-4E2A-9543-E42771537590}">
+													<Language>SFX</Language>
+													<AudioFile>Overgrowth-death-stinger.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828285603"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FD02D542-09AB-475E-988B-D553F9909E0A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D8CF43B5-E65F-4AFC-84C6-1FC592D14229}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Overgrowth-death-stinger" ID="{73FD33BC-0E81-442A-889F-39AC4E6CAA44}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="168.92605527998"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="9168.92605527997"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-168.92605527998"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Overgrowth-death-stinger" ID="{927DC89D-394E-4E2A-9543-E42771537590}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{6A7DBB28-23F9-49BE-B116-AEF20C7F8B33}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.16893</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>9.16893</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{2CDA3B4C-49C5-4CB3-AD43-A75004AD9A6D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.16893</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>9.16893</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{A7E2A2E2-4D1E-4488-BCC0-D9D0788D5BB1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.16893</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>9.16893</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{436D26BF-B672-4B6D-8E8C-6F428BC2B0A9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5FDC4E25-E340-4725-9DB2-575BACC2C016}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{27DA0EB4-4CBB-45F0-B6A6-46E4F018BE49}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E1BF652C-E856-4B09-838C-3BF745F5F35D}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F14E7051-314D-4E3B-8BB2-4666EC4B226D}" ShortID="405777468">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{2A0AE87A-D4A5-4455-9350-73C89F346F5E}" ShortID="798438951">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Overgrowth-death-stinger" ID="{58408EC2-E185-42BB-AE81-DC16BB190C10}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{BC41A981-340E-461C-8260-192133100DA4}">
@@ -732,7 +1035,6 @@
 									<PropertyList>
 										<Property Name="SourceContextType" Type="int16" Value="1"/>
 									</PropertyList>
-									<ReferenceList/>
 									<TransitionInfo/>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{DAF14807-8E44-4475-B4E6-708F3E6DA5C4}">
@@ -743,6 +1045,30 @@
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
 											<ObjectRef Name="Dungeon-Danger" ID="{4AE28385-07B7-4305-8F44-796FCF58420D}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{BCDCDEEF-A6D2-4219-8719-F7CE3A416ADD}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Victory-Stinger" ID="{F6B875B1-B38B-428D-BE99-EE1E3C2D9D33}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{942D09D7-2B42-4F42-B41B-E2B1E6E8148B}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Death-Stinger" ID="{3AC735DD-882C-4D59-834A-E949A675F60D}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo/>
@@ -785,6 +1111,22 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Dungeon-Danger" ID="{4AE28385-07B7-4305-8F44-796FCF58420D}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Death" ID="{6DCF7525-3054-4499-A53D-02A812859845}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Death-Stinger" ID="{3AC735DD-882C-4D59-834A-E949A675F60D}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Victory" ID="{AB74CE86-29DD-4E93-BEA8-AD01C50F731F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Victory-Stinger" ID="{F6B875B1-B38B-428D-BE99-EE1E3C2D9D33}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
