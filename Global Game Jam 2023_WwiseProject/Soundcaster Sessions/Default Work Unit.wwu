@@ -10,7 +10,12 @@
 							<Position X="0" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{71CF961E-833D-4708-BC0B-EFB8E79F115B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Danger" ID="{7B06876A-1F5A-4E6B-B22B-B4301DC9A9A9}"/>
 					</CurrentStateList>
