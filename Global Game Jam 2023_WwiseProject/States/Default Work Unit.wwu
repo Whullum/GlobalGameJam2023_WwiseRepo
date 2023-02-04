@@ -15,6 +15,11 @@
 				<StateGroup Name="HubStates" ID="{DEEB7543-3275-4B04-961F-E5A9B0497006}">
 					<ChildrenList>
 						<State Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+						<State Name="A_GameStart" ID="{4981D312-4567-49A8-81D8-FB0B4077A75E}"/>
+						<State Name="B_Health" ID="{0A39ABAB-E9DA-493D-A337-7D51E158E745}"/>
+						<State Name="D_All_NPC" ID="{1191F20F-6350-4748-A620-FE0624870670}"/>
+						<State Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
+						<State Name="GameComplete" ID="{F3E1421C-CDAD-492E-9588-EB9CC5FAAA04}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
