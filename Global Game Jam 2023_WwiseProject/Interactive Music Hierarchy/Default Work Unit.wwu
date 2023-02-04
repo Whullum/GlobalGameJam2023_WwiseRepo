@@ -1328,16 +1328,8 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
-														<StateRef Name="Weapons_and_Abilities" ID="{713A5290-BC2D-4011-B693-73F1EBED1E84}"/>
-														<CustomState Name="" ID="{5877E0FE-AD14-4412-84F8-E849B2976474}" ShortID="788687834"/>
-													</CustomState>
-													<CustomState>
 														<StateRef Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
 														<CustomState Name="" ID="{8518BF45-6AFD-4771-9DD4-8FF9339CF004}" ShortID="766744330"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Solo_Abilities" ID="{C286B7B3-0CF5-463D-80C4-4B4E66FEB468}"/>
-														<CustomState Name="" ID="{C7E324FB-B980-446A-80B7-F844E694551A}" ShortID="919059587"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="D_All_NPC" ID="{1191F20F-6350-4748-A620-FE0624870670}"/>
@@ -1354,14 +1346,6 @@
 													<CustomState>
 														<StateRef Name="A_GameStart" ID="{4981D312-4567-49A8-81D8-FB0B4077A75E}"/>
 														<CustomState Name="" ID="{D83DE749-F8EC-4F9E-AF58-4B6085476FF0}" ShortID="665444899"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Health_and_Weapons" ID="{638EEE5F-8045-4BCF-B798-5859A200AA91}"/>
-														<CustomState Name="" ID="{F0F6E7AC-6BD1-4151-9320-EDD76548B565}" ShortID="13296932"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Solo_Weapons" ID="{FAAFED0F-226C-4D90-9924-76475A5E5E24}"/>
-														<CustomState Name="" ID="{4EE3A40B-A301-45B6-80DD-43A609B9463F}" ShortID="936977686"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
@@ -1482,16 +1466,8 @@
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
-														<StateRef Name="Weapons_and_Abilities" ID="{713A5290-BC2D-4011-B693-73F1EBED1E84}"/>
-														<CustomState Name="" ID="{B65D3897-ABC1-4918-AE27-2F64D0CA7607}" ShortID="196602476"/>
-													</CustomState>
-													<CustomState>
 														<StateRef Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
 														<CustomState Name="" ID="{DF5A2031-59F7-42E3-91CC-9270E14DC12B}" ShortID="429179083"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Solo_Abilities" ID="{C286B7B3-0CF5-463D-80C4-4B4E66FEB468}"/>
-														<CustomState Name="" ID="{6CD36F44-0C40-4C59-A6BE-8D0E9FC67393}" ShortID="742161324"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="D_All_NPC" ID="{1191F20F-6350-4748-A620-FE0624870670}"/>
@@ -1516,14 +1492,6 @@
 																<Property Name="Volume" Type="Real64" Value="-108"/>
 															</PropertyList>
 														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Health_and_Weapons" ID="{638EEE5F-8045-4BCF-B798-5859A200AA91}"/>
-														<CustomState Name="" ID="{0157C7B3-FF1B-4489-9600-F10FCC888690}" ShortID="298267033"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Solo_Weapons" ID="{FAAFED0F-226C-4D90-9924-76475A5E5E24}"/>
-														<CustomState Name="" ID="{055BD69F-46E5-4630-92F4-68763A8B78ED}" ShortID="779700898"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
