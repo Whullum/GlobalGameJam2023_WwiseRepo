@@ -1474,6 +1474,19 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="HubStates" ID="{DEEB7543-3275-4B04-961F-E5A9B0497006}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Hub" ID="{111833BB-B386-4510-910D-250FA7A59C12}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

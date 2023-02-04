@@ -12,6 +12,11 @@
 						<State Name="Victory" ID="{AB74CE86-29DD-4E93-BEA8-AD01C50F731F}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="HubStates" ID="{DEEB7543-3275-4B04-961F-E5A9B0497006}">
+					<ChildrenList>
+						<State Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

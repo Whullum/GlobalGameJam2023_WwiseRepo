@@ -28,6 +28,13 @@
 				<Folder Name="Player_SFX" ID="{BD68C1CD-9FF1-48F3-BD92-A5450E402933}" ShortID="13552240">
 					<ChildrenList>
 						<Sound Name="SFX_Player_Damaged" ID="{3235B4C4-CD12-4615-8C54-B9FFCF55ED03}" ShortID="156961352">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
@@ -182,6 +189,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SFX_Player_MeleeAttack_Container" ID="{CBC92583-EBA5-472D-AFC0-DE33F4196F6D}" ShortID="386879563">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
@@ -310,6 +324,13 @@
 				<Folder Name="Enemy_SFX" ID="{9464300F-A97C-46A1-8621-A7FE53AE6D80}" ShortID="495604241">
 					<ChildrenList>
 						<RandomSequenceContainer Name="SFX_Enemy_MeleeAttack_Container" ID="{0B50E264-5476-4269-B5C0-81ED7BAF8089}" ShortID="1025157531">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
@@ -380,6 +401,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="SFX_Enemy_Death" ID="{8407F753-B7EB-4AC3-A83E-5A93842FF246}" ShortID="231667605">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
@@ -408,6 +436,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_Enemy_Damaged" ID="{51BEEEAD-87E8-4DA9-B553-9535798E62A9}" ShortID="983289">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
