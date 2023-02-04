@@ -1503,7 +1503,7 @@
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>30</Value>
+										<Value>15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1869,6 +1869,11 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Health" ID="{F3807BC5-081B-43C0-9BC5-C6113177BB78}" ShortID="722880974">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PlaybackSpeed" Type="Real64">
 									<ValueList>
 										<Value>1.2</Value>
