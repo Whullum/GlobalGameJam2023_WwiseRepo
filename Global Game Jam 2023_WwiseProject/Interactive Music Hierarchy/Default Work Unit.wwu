@@ -1184,6 +1184,28 @@
 									</ReferenceList>
 									<TransitionInfo/>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{423A54FF-71B5-438C-8D4E-DB5F7804637C}">
+									<PropertyList>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Victory-Stinger" ID="{F6B875B1-B38B-428D-BE99-EE1E3C2D9D33}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{AC33F931-75AE-4232-A745-F502C94D890D}">
+									<PropertyList>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Death-Stinger" ID="{3AC735DD-882C-4D59-834A-E949A675F60D}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -1452,6 +1474,19 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="HubStates" ID="{DEEB7543-3275-4B04-961F-E5A9B0497006}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Hub" ID="{111833BB-B386-4510-910D-250FA7A59C12}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

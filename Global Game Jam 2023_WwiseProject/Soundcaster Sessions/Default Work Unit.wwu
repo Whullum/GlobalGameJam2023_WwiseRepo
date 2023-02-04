@@ -17,7 +17,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Danger" ID="{7B06876A-1F5A-4E6B-B22B-B4301DC9A9A9}"/>
+						<CurrentStateRef Name="Death" ID="{6DCF7525-3054-4499-A53D-02A812859845}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

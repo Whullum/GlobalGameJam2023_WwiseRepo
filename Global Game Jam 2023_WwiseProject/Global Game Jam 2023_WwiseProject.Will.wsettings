@@ -3,10 +3,13 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1EFC4953-DA62-46C6-806C-F5707CCA1421}">
 			<PropertyList>
+				<Property Name="Event Action List\{63592A60-5659-4CA4-8C59-531719E37FA1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{783FA39B-55FB-40F9-9B82-FB80CDC2E841}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{82278C13-B959-4868-834E-F72B51919B40}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8B0EC525-DA0E-4B5D-B198-3CBEC3CCAB91}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A5E6EE5B-8184-4621-B3E4-115502C80B2B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C98F5039-60E0-45C9-8867-492769A7EC40}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DC272BFA-230B-4D02-A6FE-6E6950A130D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F21757B5-AA59-4ACE-A16A-9A23494D570C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
@@ -53,10 +56,14 @@
 				<Property Name="Music Transition List\{42206389-55D8-4E9C-9134-40FC69551797}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{46C32333-3047-44FA-AE4F-DBF65C7FFA0C}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{46C32333-3047-44FA-AE4F-DBF65C7FFA0C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{B026FA67-0A22-48D3-96A3-9D89AB1BD720}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{B026FA67-0A22-48D3-96A3-9D89AB1BD720}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{B65FB75E-B21B-4867-8156-B1A35E15EAB3}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{B65FB75E-B21B-4867-8156-B1A35E15EAB3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{BD85EBEA-2F4E-4416-8811-D9B759D68142}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{BD85EBEA-2F4E-4416-8811-D9B759D68142}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{EA7CDE32-9631-4986-B80E-2B4EDCD17D0F}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{EA7CDE32-9631-4986-B80E-2B4EDCD17D0F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewAyAEIARgBFADYANQA3ADcALQAwADEANABEAC0ANABFADYANQAtADgAQQA2AEUALQAxADQAQQA0ADYAOQBEAEQAMABDADQANQB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewAzADMAMgA3ADcAMQA5AEUALQA0ADEAMAAzAC0ANABGAEYAMQAtADkANABGADQALQAzAEIANgAwADkAOABFAEQAQgAwAEIANAB9AAAAAAE="/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>

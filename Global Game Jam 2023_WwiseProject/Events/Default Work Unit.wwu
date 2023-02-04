@@ -17,6 +17,31 @@
 				<WorkUnit Name="DungeonSounds" ID="{CB982BB8-F81F-40B4-94D0-FA9C6CE16C11}" PersistMode="Reference"/>
 				<WorkUnit Name="HubSounds" ID="{3534633B-DCF0-4BB4-9BB0-B8F39DA713BF}" PersistMode="Reference"/>
 				<WorkUnit Name="MenuSounds" ID="{F96E0558-8EEF-4153-86C2-2D0330A1F614}" PersistMode="Reference"/>
+				<Event Name="Play_Hub" ID="{DC272BFA-230B-4D02-A6FE-6E6950A130D4}">
+					<ChildrenList>
+						<Action Name="" ID="{78F44634-3628-4891-998E-104A366207BC}" ShortID="725179575">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hub" ID="{EA7CDE32-9631-4986-B80E-2B4EDCD17D0F}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Hub" ID="{63592A60-5659-4CA4-8C59-531719E37FA1}">
+					<ChildrenList>
+						<Action Name="" ID="{99E4C902-10DF-43EF-83A2-22B6D3A72BB8}" ShortID="159268550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hub" ID="{EA7CDE32-9631-4986-B80E-2B4EDCD17D0F}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
