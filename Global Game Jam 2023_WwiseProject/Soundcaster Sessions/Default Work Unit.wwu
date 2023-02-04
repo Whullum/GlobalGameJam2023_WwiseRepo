@@ -18,6 +18,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Death" ID="{6DCF7525-3054-4499-A53D-02A812859845}"/>
+						<CurrentStateRef Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
