@@ -1265,6 +1265,9 @@
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="Hub" ID="{EA7CDE32-9631-4986-B80E-2B4EDCD17D0F}" ShortID="806973508">
+					<PropertyList>
+						<Property Name="Mode" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
@@ -1317,6 +1320,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="HubStates" ID="{DEEB7543-3275-4B04-961F-E5A9B0497006}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Weapons_and_Abilities" ID="{713A5290-BC2D-4011-B693-73F1EBED1E84}"/>
+														<CustomState Name="" ID="{5877E0FE-AD14-4412-84F8-E849B2976474}" ShortID="788687834"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
+														<CustomState Name="" ID="{8518BF45-6AFD-4771-9DD4-8FF9339CF004}" ShortID="766744330"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Solo_Abilities" ID="{C286B7B3-0CF5-463D-80C4-4B4E66FEB468}"/>
+														<CustomState Name="" ID="{C7E324FB-B980-446A-80B7-F844E694551A}" ShortID="919059587"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="D_All_NPC" ID="{1191F20F-6350-4748-A620-FE0624870670}"/>
+														<CustomState Name="" ID="{4CE4405F-1098-4B46-A4EF-2BA8FDF8DCAC}" ShortID="1014305979"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="GameComplete" ID="{F3E1421C-CDAD-492E-9588-EB9CC5FAAA04}"/>
+														<CustomState Name="" ID="{516802C6-8528-472A-A8D5-5F81ED7D458B}" ShortID="286014057"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="B_Health" ID="{0A39ABAB-E9DA-493D-A337-7D51E158E745}"/>
+														<CustomState Name="" ID="{FE5CEEAD-B5F5-4E59-9256-DF2511390674}" ShortID="911898850"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="A_GameStart" ID="{4981D312-4567-49A8-81D8-FB0B4077A75E}"/>
+														<CustomState Name="" ID="{D83DE749-F8EC-4F9E-AF58-4B6085476FF0}" ShortID="665444899"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Health_and_Weapons" ID="{638EEE5F-8045-4BCF-B798-5859A200AA91}"/>
+														<CustomState Name="" ID="{F0F6E7AC-6BD1-4151-9320-EDD76548B565}" ShortID="13296932"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Solo_Weapons" ID="{FAAFED0F-226C-4D90-9924-76475A5E5E24}"/>
+														<CustomState Name="" ID="{4EE3A40B-A301-45B6-80DD-43A609B9463F}" ShortID="936977686"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{362D2994-0A1B-448A-84BB-035889922266}">
 													<PropertyList>
@@ -1426,6 +1474,59 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="HubStates" ID="{DEEB7543-3275-4B04-961F-E5A9B0497006}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Weapons_and_Abilities" ID="{713A5290-BC2D-4011-B693-73F1EBED1E84}"/>
+														<CustomState Name="" ID="{B65D3897-ABC1-4918-AE27-2F64D0CA7607}" ShortID="196602476"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
+														<CustomState Name="" ID="{DF5A2031-59F7-42E3-91CC-9270E14DC12B}" ShortID="429179083"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Solo_Abilities" ID="{C286B7B3-0CF5-463D-80C4-4B4E66FEB468}"/>
+														<CustomState Name="" ID="{6CD36F44-0C40-4C59-A6BE-8D0E9FC67393}" ShortID="742161324"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="D_All_NPC" ID="{1191F20F-6350-4748-A620-FE0624870670}"/>
+														<CustomState Name="" ID="{CD703884-44F9-4718-A14B-24633426D6CB}" ShortID="562759190"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="GameComplete" ID="{F3E1421C-CDAD-492E-9588-EB9CC5FAAA04}"/>
+														<CustomState Name="" ID="{21B61B76-A5F9-43E4-91D3-764D2141EF9F}" ShortID="142527363"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="B_Health" ID="{0A39ABAB-E9DA-493D-A337-7D51E158E745}"/>
+														<CustomState Name="" ID="{3D227FF3-B3B4-492A-9813-A5CC2AEB1A9A}" ShortID="105081199">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="A_GameStart" ID="{4981D312-4567-49A8-81D8-FB0B4077A75E}"/>
+														<CustomState Name="" ID="{BB11C1A6-5F4D-462D-A3BD-83BACA4B75FA}" ShortID="1056505926">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Health_and_Weapons" ID="{638EEE5F-8045-4BCF-B798-5859A200AA91}"/>
+														<CustomState Name="" ID="{0157C7B3-FF1B-4489-9600-F10FCC888690}" ShortID="298267033"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Solo_Weapons" ID="{FAAFED0F-226C-4D90-9924-76475A5E5E24}"/>
+														<CustomState Name="" ID="{055BD69F-46E5-4630-92F4-68763A8B78ED}" ShortID="779700898"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{F025766E-8CFA-4C05-AEC5-C85A8756FCC1}">
 													<PropertyList>
@@ -1589,10 +1690,42 @@
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+								<PathElementRef Name="D_All_NPC" ID="{1191F20F-6350-4748-A620-FE0624870670}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Hub" ID="{111833BB-B386-4510-910D-250FA7A59C12}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="A_GameStart" ID="{4981D312-4567-49A8-81D8-FB0B4077A75E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Hub" ID="{111833BB-B386-4510-910D-250FA7A59C12}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="B_Health" ID="{0A39ABAB-E9DA-493D-A337-7D51E158E745}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Hub" ID="{111833BB-B386-4510-910D-250FA7A59C12}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="C_Health_and_Abilities" ID="{AEE8A38B-98AD-4629-8D77-CF85761B07F7}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Hub" ID="{111833BB-B386-4510-910D-250FA7A59C12}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
