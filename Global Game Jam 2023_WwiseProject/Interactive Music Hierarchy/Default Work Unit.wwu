@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Dungeon" ID="{BD85EBEA-2F4E-4416-8811-D9B759D68142}" ShortID="718991284">
 					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>4</Value>
@@ -1158,7 +1163,7 @@
 								<MusicTransition Name="Transition" ID="{DAF14807-8E44-4475-B4E6-708F3E6DA5C4}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
@@ -1170,7 +1175,7 @@
 								<MusicTransition Name="Transition" ID="{BCDCDEEF-A6D2-4219-8719-F7CE3A416ADD}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
@@ -1273,10 +1278,21 @@
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="Hub" ID="{EA7CDE32-9631-4986-B80E-2B4EDCD17D0F}" ShortID="806973508">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Mode" Type="int16" Value="1"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>2</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
