@@ -2410,7 +2410,7 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="overgrowth-hub-all-npcs--layer-update" ID="{817DDF1D-410E-4C1C-9543-14D5681D85F1}">
+																				<MusicClip Name="overgrowth-hub-all-npcs--layer-update_01" ID="{817DDF1D-410E-4C1C-9543-14D5681D85F1}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -2536,6 +2536,135 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="GameVictory" ID="{B6E14BE6-A6E0-47EB-B532-2C5D45B66011}" ShortID="972331253">
+							<PropertyList>
+								<Property Name="PlaybackSpeed" Type="Real64">
+									<ValueList>
+										<Value>1.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="overgrowth-game-victory" ID="{4CDF3332-BB24-4479-8D44-5930DAEB9C64}" ShortID="18478360">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="50285.7142857143"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="overgrowth-game-victory" ID="{13686726-34B8-495C-8DA6-37B1D0C00E97}" ShortID="182598232">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD20F8AC-80F2-4CA9-B791-E431BCC04D0D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="overgrowth-game-victory" ID="{38261A7C-0FE3-44A8-946B-06F8464ABD1C}">
+													<Language>SFX</Language>
+													<AudioFile>overgrowth-game-victory.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="835695503"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{889BD9A4-370A-4B7D-8966-4F154ECB8258}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9F536C1F-4ACB-4E7B-A05A-D827BB413555}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="overgrowth-game-victory" ID="{BD164662-7434-4C7A-9F6D-B5EBA4A41B39}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50285.7142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="overgrowth-game-victory" ID="{38261A7C-0FE3-44A8-946B-06F8464ABD1C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D3BBE26A-9315-4A54-B55D-95455634FA89}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8813FB7D-7B37-467E-B383-976EBB7F65B5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="45625"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C359FAEF-CF87-450F-BF3F-075DD35ADB82}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{1DC304F7-E345-4D26-B5B8-F6E37E04E120}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{AC7F4B15-3D82-4DD1-84E7-95EF6B0EF630}" ShortID="271422656">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{039226A5-F6C4-4334-975C-2EDB924956F1}" ShortID="937686022">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="overgrowth-game-victory" ID="{4CDF3332-BB24-4479-8D44-5930DAEB9C64}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{9BEB0E06-5028-4BFD-B4E0-69A5AEF6440F}">
@@ -2595,7 +2724,7 @@
 								<PathElementRef Name="GameComplete" ID="{F3E1421C-CDAD-492E-9588-EB9CC5FAAA04}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="AllNPCs" ID="{E503F00F-6FBB-4A24-BAD6-15F56212A8CA}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
+								<AudioNodeRef Name="GameVictory" ID="{B6E14BE6-A6E0-47EB-B532-2C5D45B66011}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
