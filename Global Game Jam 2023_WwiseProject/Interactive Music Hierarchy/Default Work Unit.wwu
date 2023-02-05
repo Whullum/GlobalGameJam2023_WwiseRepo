@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="Dungeon" ID="{BD85EBEA-2F4E-4416-8811-D9B759D68142}" ShortID="718991284">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B82D66C-8776-49B2-B543-5960BF3C906D}"/>
@@ -2222,7 +2229,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Hub" ID="{6DEF0D12-9EED-450E-8474-6A81C8DBADF0}" ShortID="228735617">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="52330.9982486865"/>
+										<Property Name="EndPosition" Type="Real64" Value="98285.7142857143"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2378,11 +2385,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="overgrowth-hub-layer-all-npcs" ID="{466421BA-801C-4384-A8F5-18A8BAE398E9}">
+												<AudioFileSource Name="overgrowth-hub-all-npcs--layer-update_01" ID="{EFD5F2DF-4DA8-47CD-B0E9-88D378062EA1}">
 													<Language>SFX</Language>
-													<AudioFile>overgrowth-hub-layer-all-npcs.wav</AudioFile>
+													<AudioFile>overgrowth-hub-all-npcs--layer-update.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="842842477"/>
+														<MediaID ID="686215969"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2403,16 +2410,16 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="overgrowth-hub-layer-all-npcs" ID="{56ACA38F-D42B-4122-BA49-ABA24E889C30}">
+																				<MusicClip Name="overgrowth-hub-all-npcs--layer-update" ID="{817DDF1D-410E-4C1C-9543-14D5681D85F1}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="56.0420315236428"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="overgrowth-hub-layer-all-npcs" ID="{466421BA-801C-4384-A8F5-18A8BAE398E9}"/>
+																					<AudioSourceRef Name="overgrowth-hub-all-npcs--layer-update_01" ID="{EFD5F2DF-4DA8-47CD-B0E9-88D378062EA1}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{98782CED-F413-4B02-8A3A-E570673A8AF3}">
+																							<Curve Name="" ID="{4C628B3F-50FF-49EC-9EDF-ADF533705902}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -2431,7 +2438,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{6F881959-6349-4279-970E-2DDBA8D8D2B9}">
+																							<Curve Name="" ID="{A81EBCFD-E3BC-4360-A6CE-52B161AEFA7B}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -2450,7 +2457,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{591323CB-71A0-4B68-9454-1531F81EA4BD}">
+																							<Curve Name="" ID="{D69F6E05-D5BB-4CCB-9BAF-CED79E9B3E36}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="3"/>
 																								</PropertyList>
@@ -2585,10 +2592,10 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="None" ID="{6B924642-3DDD-4DD9-8014-CC7879EBCCF5}"/>
+								<PathElementRef Name="GameComplete" ID="{F3E1421C-CDAD-492E-9588-EB9CC5FAAA04}"/>
 							</Path>
 							<AudioNodeInfo>
-								<NoObject Platform="Linked"/>
+								<AudioNodeRef Name="AllNPCs" ID="{E503F00F-6FBB-4A24-BAD6-15F56212A8CA}" WorkUnitID="{B8E75EBA-B0E7-4903-B37B-831A52377940}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
